@@ -22,7 +22,7 @@ int main()
 int countWords(string str)
 {
 	int words = 1;
-	for (int i = 0; str[i] >= i; i++)
+	for (int i = 0; str[i]; i++)
 		if (str[i] == ' ')
 			words++;
 	return words;
